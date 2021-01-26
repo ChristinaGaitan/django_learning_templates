@@ -6,6 +6,6 @@
 
   {% comment %} <h2>This is index.html page showing!</h2> {% endcomment %}
 
-  <h1>{{ text|upper }}</h1>
+  <h1>{{ text|cut:'hello'|upper }}</h1>
   <h1>{{ number|add:'99' }}</h1>
 {% endblock %}
